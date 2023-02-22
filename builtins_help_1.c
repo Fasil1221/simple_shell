@@ -27,7 +27,6 @@ void help_all(void)
 	msg = "unsetenv [VARIABLE]\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
 /**
  * help_alias - Displays information on the shellby builtin command 'alias'.
  */
@@ -49,7 +48,6 @@ void help_alias(void)
 	msg = "is already an alias, replace its value with VALUE.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
 /**
  * help_cd - Displays information on the shellby builtin command 'cd'.
  */
@@ -69,7 +67,6 @@ void help_cd(void)
 	msg = "after a change of directory.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
 /**
  * help_exit - Displays information on the shellby builtin command 'exit'.
  */
@@ -85,7 +82,6 @@ void help_exit(void)
 	msg = " exit 0.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
 /**
  * help_help - Displays information on the shellby builtin command 'help'.
  */
@@ -99,4 +95,3 @@ void help_help(void)
 	msg = "builtin command.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
